@@ -1,0 +1,40 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-stdlib=libc++",
+      "-pthread",
+      "-std=c++14",
+      "-m64",
+      "-I/Users/jack/Software/root/install/include",
+      "-Iinc",
+      "-I/Users/jack/Software/WCSim/src/../install//BetaGun/include/WCSim",
+      "-c",
+      "-o",
+      "build/programs/calculate_dedx.o",
+      "src/programs/calculate_dedx.cpp"
+    ],
+    "directory": "/Users/jack/Software/HK-Analysis/muons_dedx",
+    "file": "/Users/jack/Software/HK-Analysis/muons_dedx/src/programs/calculate_dedx.cpp",
+    "output": "/Users/jack/Software/HK-Analysis/muons_dedx/build/programs/calculate_dedx.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-stdlib=libc++",
+      "-pthread",
+      "-std=c++14",
+      "-m64",
+      "-I/Users/jack/Software/root/install/include",
+      "-Iinc",
+      "-I/Users/jack/Software/WCSim/src/../install//BetaGun/include/WCSim",
+      "-c",
+      "-o",
+      "build/programs/dedx.o",
+      "src/programs/dedx.cpp"
+    ],
+    "directory": "/Users/jack/Software/HK-Analysis/muons_dedx",
+    "file": "/Users/jack/Software/HK-Analysis/muons_dedx/src/programs/dedx.cpp",
+    "output": "/Users/jack/Software/HK-Analysis/muons_dedx/build/programs/dedx.o"
+  }
+]
